@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>MefContrib.MVC3.VB</id>
-    <version>1.0.0.0</version>
+    <version>0.9.0.0</version>
     <authors>Bryan JOhns</authors>
     <owners>K4GDW</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
