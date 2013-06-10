@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MefContrib.MVC3.VB</id>
+    <version>1.0.0.0</version>
+    <authors>Bryan JOhns</authors>
+    <owners>K4GDW</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An MVC3 IDependencyResolver wrapper for the Managed Extensibility Framework (MEF).</description>
+    <summary>An MVC3 IDependencyResolver wrapper for the Managed Extensibility Framework (MEF).</summary>
+    <releaseNotes>Aded a dependency on MefContrib.MVC3 so that it'll pull down all required binaries.</releaseNotes>
+    <language>en-US</language>
+    <tags>mef ioc di dependency injection mvc composition</tags>
+    <dependencies>
+      <dependency id="MefContrib.MVC3" version="1.2.2.1" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.ComponentModel.Composition" targetFramework=".NETFramework4.0" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
