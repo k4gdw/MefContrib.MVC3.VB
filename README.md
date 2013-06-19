@@ -3,12 +3,9 @@ MefContrib.MVC3.VB
 
 ----
 
-This is a simple [NuGet](http://nuget.org) package that installs a vb.net
-bootstrapper for Microsoft's [Managed Extensibility Framework][1] (MEF) into
-a VB [Asp.Net Mvc3][2] project.
-
-[1]	http://bit.ly/11DdiE2
-[2] http://www.asp.net/mvc/mvc3
+This is a simple [NuGet][1] package that installs a vb.net bootstrapper for
+Microsoft's [Managed Extensibility Framework][2] (MEF) into a VB
+[Asp.Net Mvc3][3] project.
 
 Once i've had time to test it and verify that it actually does what it's
 supposed to do I'll end up publishing it to the official NuGet Package
@@ -33,3 +30,9 @@ Notes:
 	delete it.
 *	It would ***probably*** work fine for Mvc4 as well as it follows the
 	same App_Start convention for such start up code. **YMMV**
+
+[1]:	http://nuget.org
+
+[2]:	http://bit.ly/11DdiE2
+
+[3]:	http://www.asp.net/mvc/mvc3
